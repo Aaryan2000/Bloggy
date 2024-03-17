@@ -2,7 +2,7 @@ import axios from "axios"
 import { Appbar } from "./Appbar"
 import { BACKEND_URL } from "../config"
 import { useState } from "react"
-import { Navigate, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 export const Publish= ()=>{
     const [title,setTitle]=useState("");
